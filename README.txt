@@ -40,7 +40,7 @@ assignments I have been given in a classroom setting.
 		buzzer and flashing eight LEDs.
 
 
-2. Java Samples
+3. Java Samples
 
 	- Traveling Salesmen
 		This program is an exercise in Java in which we
@@ -48,7 +48,7 @@ assignments I have been given in a classroom setting.
 		shortest route by which two salesmen can hit up
 		every major city in the data file.
 
-3. Prolog Samples
+4. Prolog Samples
 
 	- Factorial
 		A program designed while getting my feet wet in my
@@ -71,9 +71,9 @@ assignments I have been given in a classroom setting.
 		Another simple program written while learning Prolog.
 		Determines whether an input number is odd.
 
-4. Web Samples
+5. Web Samples
 
-4.1 CSS
+5.1 CSS
 
 	- Presidents Site
 		This web site was my first attempt at using CSS. The
@@ -81,14 +81,14 @@ assignments I have been given in a classroom setting.
 		the site around his spec. The biography for George Washington
 		is the only one we were required to include.
 
-4.2 HTML
+5.2 HTML
 
 	- First Web Page
 		This page is the first page I ever wrote in HTML. It is
 		very simple with no CSS, but demonstrates that I have been
 		using HTML 5 from the beginning.
 
-4.3 JavaScript
+5.3 JavaScript
 
 	- Race Time and Pace Calculator
 		This page allows a user to input a race time and a race distance
@@ -101,7 +101,7 @@ assignments I have been given in a classroom setting.
 		database that is stored in the user's local storage and loaded out
 		whenever the user returns to the page.
 
-4.4 JQuery
+5.4 JQuery
 
 	- Tic Tac Toe
 		Somewhat the culmination of my semester of Client-Side web program-
