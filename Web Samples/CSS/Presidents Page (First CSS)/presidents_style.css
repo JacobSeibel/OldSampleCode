@@ -1,0 +1,35 @@
+/* CSS Document 
+This file defines the styles used by the president.html stylesheet for the CSS Assignment
+Adapted from Franklyn Turbak
+*/
+
+#gallery {position: absolute; float: right; width: 750px; margin:auto;}
+.pres {position: relative; float: left; padding-left:25px; padding-top:25px; padding-right:25px; padding-bottom:25px}
+.presImg {float:left;}
+.presImg img {width:200px; height:250px; margin-left:25px; margin-top:25px; outline:aqua solid 25px;}
+.presName {position: absolute; left:-125px; top:225px; text-align: center; width: 250px; height:25px; padding-left:150px; padding-top:75px; padding-bottom: 50px; font-size:20px;}
+.presName a {color: blue; text-decoration:none;} 
+
+body  {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+}
+
+h2,h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: blue; 
+}
+
+h2 {font-size: 18pt;
+	text-align: center;}
+
+h3 {font-size: 14pt;}
+
+#main {position: absolute; left: 275px; top:75px; float: right; margin: auto}
+
+#navbar {position: relative; float: left; width: 200px}
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}

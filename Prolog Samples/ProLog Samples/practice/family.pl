@@ -1,0 +1,2 @@
+male(gregory).
+female(jane).

@@ -1,0 +1,9 @@
+table#board {border: 2px solid black;
+	border-collapse:collapse;
+	width: 150px;
+	height: 150px;
+	margin: 50px;}
+td.cell {background-color: GhostWhite;
+	border: 1px solid black;
+	text-align: center;
+	width: 33%}

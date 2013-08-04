@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Training Log</title>
+	<meta charset="utf-8">
+	<script src="trainglog.js"></script>
+</head>
+<body>
+	<h1>Training Log</h1>
+	<form>
+		<p>
+			<label for="date">Date:  </label>
+			<input type="text" id="date" placeholder="Enter date" onchange="dateChanged()">
+		</p>
+		<p>
+			<label for="runDistance">Run distance:  </label>
+			<input type="text" id="runDistance" placeholder="Enter run distance" onchange="distanceChanged()">
+		</p>
+		<p>
+			<label for="runTime">Run time:  </label>
+			<input type="text" id="runTime" placeholder="Enter run time" onchange="timeChanged()">
+		</p>
+		<p>
+			<label for="effortRating">Effort rating:  </label>
+			<input type="text" id="effortRating" placeholder="Enter effort rating" onchange="ratingChanged()">
+		</p>
+		<p>
+			<label for="maxHeartRate">Max heart rate:  </label>
+			<input type="text" id="maxHeartRate" placeholder="Enter max heart rate" onchange="maxRateChanged()">
+		</p>
+		<p>
+			<label for="restingHeartRate">Resting heart rate:  </label>
+			<input type="text" id="restingHeartRate" placeholder="Enter resting heart rate" onchange="restingRateChanged()">
+		</p>
+		<p>
+			<label for="weight">Weight:  </label>
+			<input type="text" id="weight" placeholder="Enter weight" onchange="weightChanged()">
+		</p>
+		<p>
+			<label for="hoursSleep">Hours of sleep the night before:  </label>
+			<input type="text" id="hoursSleep" placeholder="Enter hours of sleep" onchange="sleepChanged()">
+		</p>
+		<p>
+			<label for="notes">Notes:  </label>
+			<input type="text" id="notes" placeholder="Enter notes" onchange="notesChanged()">
+		</p>
+		</form>
+		<div>
+		<table border="1" id="log">
+		</table>
+</body>

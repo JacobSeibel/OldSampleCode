@@ -1,0 +1,23 @@
+get A
+get B
+push A
+push B
+add
+pop Sum
+put Sum
+push A
+push B
+sub
+pop Dif
+put Dif
+push A
+push B
+mult
+pop Prod
+put Prod
+push A
+push B
+div
+pop Div
+put Div
+halt

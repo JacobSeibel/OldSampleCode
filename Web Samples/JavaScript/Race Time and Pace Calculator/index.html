@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Race Time/Pace</title>
+	<meta charset="utf-8">
+	<script src="timepace.js"></script>
+</head>
+<body>
+	<h1>Race Time/Pace</h1>
+	<form>
+		<p>
+			<label for="raceDistance">Race Distance:  </label>
+			<input type="text" id="raceDistance" placeholder="Enter Distance" onchange="distChanged()">
+		</p>
+		<p>
+			<label for="totalTime">Total Time:  </label>
+			<input type="text" id="totalTime" placeholder="Enter Total Time" onchange="timeChanged()">
+		</p>
+		<p>
+			<label for="pace">Pace:  </label>
+			<input type="text" id="pace" placeholder="Enter Race Pace" onchange="paceChanged()">
+		</p>
+		<p>
+			<label for="units">Units:  </label>
+			<select name="units" id = "units" onchange="unitsChanged()">
+				<option value="miles">Miles</option>
+				<option value="kilometers">Kilometers</option>
+			</select>
+		</p>
+		</form>
+		<div>
+		<p id="description"></p>
+</body>
