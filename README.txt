@@ -23,6 +23,23 @@ assignments I have been given in a classroom setting.
 		as a README which describes in more detail what
 		the Interpreter can and cannot do.
 
+2. C++ (Atmel Studios)
+
+	- Kernel SP13
+		This is a fully functional multi-threaded Kernel
+		written in C++ (using Atmel Studio 6 IDE). The Kernel
+		allows up to eight simultaneous threads to run at once.
+		It was written completely by hand with some guidance from
+		a professor and a fellow student.
+
+	- Scarebot
+		This is the code for the robot that my partner and I built
+		for my Embedded Systems final. It is a program that tells
+		the bot to do nothing while in full light, but in darkness
+		to go crazy, scurrying forward while screeching through a
+		buzzer and flashing eight LEDs.
+
+
 2. Java Samples
 
 	- Traveling Salesmen
